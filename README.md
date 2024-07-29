@@ -1,3 +1,9 @@
+The DoubletFinder R package from `chris-mcginnis-ucsf/DoubletFinder:master` has a small compatibility issue with previous Seurat versions (<5.0.0). The only modifications done to this forked version are related to the way of accessing the count matrix. 
+
+From `seu@assays$RNA$counts` in both `DoubletFinder.R` and `paramSweep.R` files to `seu@assays$RNA@counts`. 
+
+----------
+
 ~~ Announcement (11/24/21) ~~
 I'm now a postdoc at Stanford and my UCSF email will be decommissioned soon. I also only check my github repos about once per month, so please reach out directly at cmcginni@stanford[dot]edu if you run into any issues. 
 
